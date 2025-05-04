@@ -32,7 +32,9 @@ export default function Hero() {
               className="mt-8 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"
             >
               <a 
-                href="#book" 
+                href="https://calendly.com/ksalyer-ehp/30min" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="bg-primary hover:bg-primary/90 text-white font-semibold py-4 px-8 rounded-md transition-colors text-center text-lg shadow-md hover:shadow-lg"
               >
                 Book a Free Call

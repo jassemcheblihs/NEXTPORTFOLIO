@@ -3,7 +3,7 @@ import { Check } from "lucide-react";
 import shieldImage from "@assets/shield-n-pills.webp";
 
 export default function CallToAction() {
-  const bookingUrl = "https://calendly.com/kenysalyer/30min"; // Replace with actual booking URL
+  const bookingUrl = "https://calendly.com/ksalyer-ehp/30min";
 
   return (
     <section id="book" className="py-20 bg-primary text-white">

@@ -36,7 +36,12 @@ export default function Header() {
             <a href="#about" className="text-gray-800 hover:text-primary transition-colors font-medium">About</a>
             <a href="#benefits" className="text-gray-800 hover:text-primary transition-colors font-medium">Benefits</a>
             <a href="#testimonials" className="text-gray-800 hover:text-primary transition-colors font-medium">Testimonials</a>
-            <a href="#book" className="bg-primary hover:bg-primary/90 text-white font-semibold py-2 px-6 rounded-md transition-colors">
+            <a 
+              href="https://calendly.com/ksalyer-ehp/30min" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="bg-primary hover:bg-primary/90 text-white font-semibold py-2 px-6 rounded-md transition-colors"
+            >
               Book a Call
             </a>
           </nav>
@@ -60,7 +65,13 @@ export default function Header() {
               <a href="#about" onClick={closeMenu} className="text-gray-800 hover:text-primary transition-colors font-medium px-4 py-2">About</a>
               <a href="#benefits" onClick={closeMenu} className="text-gray-800 hover:text-primary transition-colors font-medium px-4 py-2">Benefits</a>
               <a href="#testimonials" onClick={closeMenu} className="text-gray-800 hover:text-primary transition-colors font-medium px-4 py-2">Testimonials</a>
-              <a href="#book" onClick={closeMenu} className="bg-primary hover:bg-primary/90 text-white font-semibold py-2 px-6 mx-4 rounded-md transition-colors text-center">
+              <a 
+                href="https://calendly.com/ksalyer-ehp/30min" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                onClick={closeMenu} 
+                className="bg-primary hover:bg-primary/90 text-white font-semibold py-2 px-6 mx-4 rounded-md transition-colors text-center"
+              >
                 Book a Call
               </a>
             </div>

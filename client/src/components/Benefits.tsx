@@ -125,7 +125,9 @@ export default function Benefits() {
           </div>
           <div className="flex justify-end mt-6">
             <a 
-              href="#book" 
+              href="https://calendly.com/ksalyer-ehp/30min" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="group relative bg-primary hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl overflow-hidden"
             >
               <span className="relative z-10">Book a Call</span>
