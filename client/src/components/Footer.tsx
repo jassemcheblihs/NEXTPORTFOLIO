@@ -1,4 +1,5 @@
 import { Facebook, Linkedin, Twitter } from "lucide-react";
+import ehpLogo from "@assets/logo-blue-black.webp";
 
 export default function Footer() {
   return (
@@ -7,10 +8,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-8 md:mb-0">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">
-                EHP
-              </div>
-              <span className="text-xl font-semibold">EHP Benefits</span>
+              <img src={ehpLogo} alt="EHP Logo" className="h-10 bg-white rounded p-1" />
             </div>
             <p className="text-gray-400 max-w-md">
               Enhancing employee benefits while reducing payroll tax costs for businesses across the United States.
