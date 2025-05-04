@@ -101,16 +101,16 @@ export default function Benefits() {
           className="mt-16 max-w-4xl mx-auto bg-blue-50 rounded-xl p-8 shadow-sm hover:shadow-md transition-all transform hover:scale-[1.01] duration-300"
         >
           <div className="flex flex-col md:flex-row items-center">
-            <div className="w-full md:w-1/3 mb-6 md:mb-0 flex justify-center">
+            <div className="w-full md:w-1/3 mb-6 md:mb-0 flex flex-col items-center">
               <img 
                 src={kennyImage} 
                 alt="Kenny Salyer" 
-                className="rounded-full w-40 h-40 object-cover shadow-md"
+                className="rounded-full w-40 h-40 object-cover shadow-md mb-3"
               />
+              <p className="text-primary font-medium text-center">Kenny Salyer<br/>Director of Client & Customer Experience</p>
             </div>
             <div className="w-full md:w-2/3 md:pl-8">
               <h3 className="text-2xl font-semibold mb-2">Why Work With Kenny?</h3>
-              <p className="text-primary font-medium mb-3">Kenny Salyer<br/>Director of Client & Customer Experience</p>
               <p className="text-gray-700 text-lg">
                 "With EHP, I help companies reduce taxable payroll, saving an average of $639 per employee annually—all with zero disruption to your existing system."
               </p>
