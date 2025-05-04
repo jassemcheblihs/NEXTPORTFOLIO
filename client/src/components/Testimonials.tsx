@@ -1,4 +1,7 @@
 import { motion } from "framer-motion";
+import quote1Avatar from "@assets/Quote1Avatar1.webp";
+import quote2Avatar from "@assets/Quote2Avatar2.webp";
+import quote3Avatar from "@assets/Quote3Avatar3.webp";
 
 export default function Testimonials() {
   const containerVariants = {
@@ -18,22 +21,22 @@ export default function Testimonials() {
 
   const testimonials = [
     {
-      quote: "By offering the EHP program, we have seen a significant uptick in both existing employee retention and new employee recruitment.",
-      name: "Marine",
-      position: "Employee",
-      image: "https://images.unsplash.com/photo-1569078449082-26b4d4b5b42f?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+      quote: "Thanks to the EHP program offered by my company, I have been granted access to local and virtual medical care for myself and family that we did not have prior",
+      name: "Sarah",
+      position: "HR Manager",
+      image: quote1Avatar
     },
     {
-      quote: "We love the ability to offer the EHP program to employees at a $0 net cost. It's been a game-changer for our benefits package.",
-      name: "Jack",
-      position: "Employee",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+      quote: "We love the ability to offer the EHP program to employees at a $0 net cost",
+      name: "Michael",
+      position: "Business Owner",
+      image: quote2Avatar
     },
     {
-      quote: "Thanks to the EHP program offered by my company, I have been granted access to local and virtual medical care for myself and family that we did not have prior.",
-      name: "Anna",
-      position: "Employee",
-      image: "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+      quote: "By offering the EHP program, we have seen a significant uptick in both existing employee retention and new employee recruitment",
+      name: "Jessica",
+      position: "Operations Director",
+      image: quote3Avatar
     }
   ];
 
@@ -98,20 +101,6 @@ export default function Testimonials() {
               </div>
             </motion.div>
           ))}
-        </motion.div>
-        
-        <motion.div 
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="flex justify-center mt-12"
-        >
-          <div className="flex space-x-2">
-            <button className="w-4 h-4 rounded-full bg-primary"></button>
-            <button className="w-4 h-4 rounded-full bg-blue-200 hover:bg-blue-300 transition-colors"></button>
-            <button className="w-4 h-4 rounded-full bg-blue-200 hover:bg-blue-300 transition-colors"></button>
-          </div>
         </motion.div>
       </div>
     </section>
