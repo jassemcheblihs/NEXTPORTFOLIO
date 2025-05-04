@@ -1,4 +1,3 @@
-import { Facebook, Linkedin, Twitter } from "lucide-react";
 import ehpLogo from "@assets/logo-blue-black.webp";
 
 export default function Footer() {
@@ -16,17 +15,6 @@ export default function Footer() {
           </div>
           
           <div className="flex flex-col items-center md:items-end">
-            <div className="flex space-x-4 mb-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Linkedin size={24} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Twitter size={24} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Facebook size={24} />
-              </a>
-            </div>
             <p className="text-gray-400 text-sm text-center md:text-right">
               &copy; {new Date().getFullYear()} EHP Benefits. All rights reserved.<br />
               Director of Client and Customer Experience: Kenny Salyer<br />
