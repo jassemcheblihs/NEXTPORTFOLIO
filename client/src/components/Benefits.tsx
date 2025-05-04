@@ -123,6 +123,16 @@ export default function Benefits() {
               </div>
             </div>
           </div>
+          <div className="flex justify-end mt-6">
+            <a 
+              href="#book" 
+              className="group relative bg-primary hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl overflow-hidden"
+            >
+              <span className="relative z-10">Book a Call</span>
+              <span className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+              <span className="absolute right-0 -bottom-3 w-12 h-12 rounded-full bg-white opacity-10 group-hover:scale-150 transition-transform duration-500"></span>
+            </a>
+          </div>
         </motion.div>
       </div>
     </section>
