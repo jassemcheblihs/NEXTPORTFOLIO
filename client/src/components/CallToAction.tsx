@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
+import shieldImage from "@assets/shield-n-pills.webp";
 
 export default function CallToAction() {
   const bookingUrl = "https://calendly.com/kenysalyer/30min"; // Replace with actual booking URL
@@ -23,8 +24,8 @@ export default function CallToAction() {
             <div className="flex flex-col lg:flex-row items-center -mx-4">
               <div className="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
                 <img 
-                  src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
-                  alt="Calendar scheduling" 
+                  src={shieldImage} 
+                  alt="Health benefits and protection" 
                   className="rounded-lg shadow-md max-w-full h-auto"
                 />
               </div>
