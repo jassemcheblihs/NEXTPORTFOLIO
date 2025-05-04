@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import ehpLogo from "@assets/logo-blue-black.webp";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,10 +28,7 @@ export default function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <a href="#" className="flex items-center space-x-2">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">
-              EHP
-            </div>
-            <span className="text-xl font-semibold">EHP Benefits</span>
+            <img src={ehpLogo} alt="EHP Logo" className="h-10" />
           </a>
           
           {/* Desktop Navigation */}
