@@ -38,10 +38,10 @@ export default function Hero() {
                 Book a Free Call
               </a>
               <a 
-                href="#how-it-works" 
+                href="#benefits" 
                 className="border border-primary text-primary hover:bg-blue-50 font-semibold py-4 px-8 rounded-md transition-colors text-center text-lg"
               >
-                Learn How It Works
+                See The Benefits
               </a>
             </motion.div>
           </div>
