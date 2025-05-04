@@ -22,20 +22,20 @@ export default function Testimonials() {
   const testimonials = [
     {
       quote: "Thanks to the EHP program offered by my company, I have been granted access to local and virtual medical care for myself and family that we did not have prior",
-      name: "Sarah",
-      position: "HR Manager",
+      name: "Anna",
+      position: "Employee",
       image: quote1Avatar
     },
     {
       quote: "We love the ability to offer the EHP program to employees at a $0 net cost",
-      name: "Michael",
-      position: "Business Owner",
+      name: "Jack",
+      position: "Employee",
       image: quote2Avatar
     },
     {
       quote: "By offering the EHP program, we have seen a significant uptick in both existing employee retention and new employee recruitment",
-      name: "Jessica",
-      position: "Operations Director",
+      name: "Marine",
+      position: "Employee",
       image: quote3Avatar
     }
   ];
