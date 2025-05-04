@@ -54,51 +54,13 @@ export default function Benefits() {
   return (
     <section id="benefits" className="py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div 
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          className="text-center mb-16"
-        >
-          <motion.h2 variants={itemVariants} className="text-3xl md:text-4xl font-bold text-gray-800">
-            Employee Benefits Highlights
-          </motion.h2>
-          <motion.div variants={itemVariants} className="w-16 h-1 bg-primary mx-auto mt-4 mb-6"></motion.div>
-          <motion.p variants={itemVariants} className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Comprehensive healthcare coverage and wellness services at no cost to your employees.
-          </motion.p>
-        </motion.div>
-        
-        <motion.div 
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.1 }}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
-        >
-          {benefits.map((benefit, index) => (
-            <motion.div
-              key={index}
-              variants={itemVariants}
-              className="benefit-card bg-gray-50 rounded-lg p-6 shadow-sm hover:shadow-md transition-all"
-            >
-              <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-6 benefit-icon text-primary">
-                {benefit.icon}
-              </div>
-              <h3 className="text-xl font-semibold mb-3">{benefit.title}</h3>
-              <p className="text-gray-600">
-                {benefit.description}
-              </p>
-            </motion.div>
-          ))}
-        </motion.div>
-        
+        {/* Kenny Card Section */}
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="mt-16 max-w-4xl mx-auto bg-blue-50 rounded-xl p-8 shadow-sm hover:shadow-md transition-all transform hover:scale-[1.01] duration-300"
+          transition={{ duration: 0.5 }}
+          className="mb-16 max-w-4xl mx-auto bg-blue-50 rounded-xl p-8 shadow-sm hover:shadow-md transition-all transform hover:scale-[1.01] duration-300"
         >
           <div className="flex flex-col md:flex-row items-center">
             <div className="w-full md:w-1/3 mb-6 md:mb-0 flex justify-center">
@@ -135,6 +97,47 @@ export default function Benefits() {
               <span className="absolute right-0 -bottom-3 w-12 h-12 rounded-full bg-white opacity-10 group-hover:scale-150 transition-transform duration-500"></span>
             </a>
           </div>
+        </motion.div>
+
+        {/* Benefits Highlights Section */}
+        <motion.div 
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+          className="text-center mb-16"
+        >
+          <motion.h2 variants={itemVariants} className="text-3xl md:text-4xl font-bold text-gray-800">
+            Employee Benefits Highlights
+          </motion.h2>
+          <motion.div variants={itemVariants} className="w-16 h-1 bg-primary mx-auto mt-4 mb-6"></motion.div>
+          <motion.p variants={itemVariants} className="text-lg text-gray-600 max-w-2xl mx-auto">
+            Comprehensive healthcare coverage and wellness services at no cost to your employees.
+          </motion.p>
+        </motion.div>
+        
+        {/* Benefits Cards Grid */}
+        <motion.div 
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.1 }}
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
+        >
+          {benefits.map((benefit, index) => (
+            <motion.div
+              key={index}
+              variants={itemVariants}
+              className="benefit-card bg-gray-50 rounded-lg p-6 shadow-sm hover:shadow-md transition-all"
+            >
+              <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-6 benefit-icon text-primary">
+                {benefit.icon}
+              </div>
+              <h3 className="text-xl font-semibold mb-3">{benefit.title}</h3>
+              <p className="text-gray-600">
+                {benefit.description}
+              </p>
+            </motion.div>
+          ))}
         </motion.div>
       </div>
     </section>
