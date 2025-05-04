@@ -109,7 +109,8 @@ export default function Benefits() {
               />
             </div>
             <div className="w-full md:w-2/3 md:pl-8">
-              <h3 className="text-2xl font-semibold mb-4">Why Work With Kenny?</h3>
+              <h3 className="text-2xl font-semibold mb-2">Why Work With Kenny?</h3>
+              <p className="text-primary font-medium mb-3">Kenny Salyer<br/>Director of Client & Customer Experience</p>
               <p className="text-gray-700 text-lg">
                 "With EHP, I help companies reduce taxable payroll, saving an average of $639 per employee annually—all with zero disruption to your existing system."
               </p>
