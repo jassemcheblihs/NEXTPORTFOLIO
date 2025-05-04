@@ -1,0 +1,67 @@
+Build a sleek, modern, single-page website using HTML, CSS, and Next.js (client-side only) for Kenny Salyer, Director of Client and Customer Experience at EHP, an insurance and health benefits company based in Fresno, CA.
+
+The landing page should:
+
+Headline: "Reduce Payroll Taxes. Deliver Better Benefits."
+
+Subheadline: "Work with Kenny Salyer to enhance your employee benefits package while lowering your FICA liability—at no cost to you."
+
+Hero Section: Include a large CTA button: “Book a Free Call” that links to his meeting link (insert URL or placeholder like #book).
+
+Visual Style: Use a sleek, professional design—white space, modern typography, iconography for clarity, subtle animations.
+
+Core Sections:
+
+✅ About EHP
+Use language like:
+
+“EHP empowers employers to deliver top-tier healthcare while cutting payroll tax costs.”
+
+“Over 2,000 employers enrolled, 4.8 Trustpilot rating, $0 out-of-pocket costs for employees.”
+
+Mention key features like Preventive Care Dashboard™, Virtual Primary Care, Mental Health Support, and Rx Coverage—all powered by Revive Health.
+
+💡 How It Works
+Step 1: Submit a payroll report
+
+Step 2: Get an eligibility & tax savings report
+
+Step 3: Seamless integration into existing payroll/benefits system
+
+🌿 Employee Benefits Highlight
+Show icons for:
+
+🦷 Dental & Accident Coverage
+
+🧠 Mental Health Counseling
+
+💊 Free RX Program
+
+👩‍⚕️ Unlimited Telehealth Visits
+
+🔐 Identity Theft Protection
+
+🧬 Optional DNA & Biometric Testing Kits
+
+📈 Why Work With Kenny?
+Include this copy:
+
+“With EHP, I help companies reduce taxable payroll, saving an average of $639 per employee annually—all with zero disruption to your existing system.”
+
+⭐ Testimonials / Trust Section (Placeholder)
+Use a quote like: “By offering the EHP program, we saw increased employee retention and easier recruitment.” — Marine Employee
+
+📅 CTA Section
+End the page with another strong CTA: “Schedule Your Free 30-Minute Strategy Call with Kenny” and repeat the CTA button.
+
+Design notes:
+
+Stick to clean layout (think: Apple style or Stripe aesthetic)
+
+Responsive design (mobile/tablet friendly)
+
+Font: use a modern sans-serif (e.g., Inter or Helvetica Neue)
+
+Color scheme: light theme with subtle accent color (e.g., EHP brand blue if available)
+
+No database, no form submission—just client-side code with anchor links to external booking.
