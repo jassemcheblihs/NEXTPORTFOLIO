@@ -69,7 +69,7 @@ export default function Testimonials() {
             <motion.div 
               key={index}
               variants={itemVariants}
-              className="testimonial-card bg-white rounded-lg p-6 shadow-md"
+              className="testimonial-card bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-all transform hover:scale-[1.02] duration-300"
             >
               <div className="flex items-center mb-4">
                 <svg className="text-blue-200 w-10 h-10 mr-4" fill="currentColor" viewBox="0 0 24 24">

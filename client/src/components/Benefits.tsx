@@ -98,7 +98,7 @@ export default function Benefits() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="mt-16 max-w-4xl mx-auto bg-blue-50 rounded-xl p-8 shadow-sm"
+          className="mt-16 max-w-4xl mx-auto bg-blue-50 rounded-xl p-8 shadow-sm hover:shadow-md transition-all transform hover:scale-[1.01] duration-300"
         >
           <div className="flex flex-col md:flex-row items-center">
             <div className="w-full md:w-1/3 mb-6 md:mb-0 flex justify-center">

@@ -20,7 +20,7 @@ export default function CallToAction() {
             Discover how to reduce your payroll taxes while enhancing employee benefits. No obligation, just valuable insights.
           </p>
           
-          <div className="bg-white rounded-lg shadow-lg p-8 text-gray-800">
+          <div className="bg-white rounded-lg shadow-lg p-8 text-gray-800 transition-all transform hover:shadow-xl hover:scale-[1.01] duration-300">
             <div className="flex flex-col lg:flex-row items-center -mx-4">
               <div className="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
                 <img 
