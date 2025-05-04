@@ -29,18 +29,18 @@ export default function CallToAction() {
                   className="rounded-lg shadow-md max-w-full h-auto"
                 />
               </div>
-              <div className="w-full lg:w-1/2 px-4">
+              <div className="w-full lg:w-1/2 px-4 text-left">
                 <h3 className="text-2xl font-semibold mb-4">What to Expect:</h3>
-                <ul className="space-y-4 mb-8">
+                <ul className="space-y-4 mb-8 text-left">
                   {[
                     "Free tax savings analysis for your business",
                     "Overview of employee benefits available",
                     "Implementation timeline and support details",
                     "Answers to all your questions"
                   ].map((item, index) => (
-                    <li key={index} className="flex items-start">
+                    <li key={index} className="flex items-start text-left">
                       <Check className="text-primary h-6 w-6 mt-1 mr-3 flex-shrink-0" strokeWidth={3} />
-                      <span>{item}</span>
+                      <span className="text-left inline-block flex-1">{item}</span>
                     </li>
                   ))}
                 </ul>
