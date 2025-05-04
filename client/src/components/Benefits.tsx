@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Torus, Brain, Pill, Phone, Shield, Dna } from "lucide-react";
+import kennyImage from "@assets/kenny.jpeg";
 
 export default function Benefits() {
   const containerVariants = {
@@ -102,8 +103,8 @@ export default function Benefits() {
           <div className="flex flex-col md:flex-row items-center">
             <div className="w-full md:w-1/3 mb-6 md:mb-0 flex justify-center">
               <img 
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
-                alt="Professional businessman" 
+                src={kennyImage} 
+                alt="Kenny Salyer" 
                 className="rounded-full w-40 h-40 object-cover shadow-md"
               />
             </div>
