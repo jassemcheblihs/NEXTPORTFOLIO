@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Torus, Brain, Pill, Phone, Shield, Dna } from "lucide-react";
+import { Heart, Brain, Pill, Phone, Shield, Dna } from "lucide-react";
 import kennyImage from "@assets/kenny.jpeg";
 
 export default function Benefits() {
@@ -20,7 +20,7 @@ export default function Benefits() {
 
   const benefits = [
     {
-      icon: <Torus />,
+      icon: <Heart size={24} />,
       title: "Dental & Accident Coverage",
       description: "Comprehensive dental care and accident coverage to keep your employees protected."
     },
