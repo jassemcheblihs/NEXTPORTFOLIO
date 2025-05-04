@@ -34,7 +34,6 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#about" className="text-gray-800 hover:text-primary transition-colors font-medium">About</a>
-            <a href="#how-it-works" className="text-gray-800 hover:text-primary transition-colors font-medium">How It Works</a>
             <a href="#benefits" className="text-gray-800 hover:text-primary transition-colors font-medium">Benefits</a>
             <a href="#testimonials" className="text-gray-800 hover:text-primary transition-colors font-medium">Testimonials</a>
             <a href="#book" className="bg-primary hover:bg-primary/90 text-white font-semibold py-2 px-6 rounded-md transition-colors">
@@ -59,7 +58,6 @@ export default function Header() {
           <div className="md:hidden bg-white pb-4 animate-fade-in">
             <div className="flex flex-col space-y-4">
               <a href="#about" onClick={closeMenu} className="text-gray-800 hover:text-primary transition-colors font-medium px-4 py-2">About</a>
-              <a href="#how-it-works" onClick={closeMenu} className="text-gray-800 hover:text-primary transition-colors font-medium px-4 py-2">How It Works</a>
               <a href="#benefits" onClick={closeMenu} className="text-gray-800 hover:text-primary transition-colors font-medium px-4 py-2">Benefits</a>
               <a href="#testimonials" onClick={closeMenu} className="text-gray-800 hover:text-primary transition-colors font-medium px-4 py-2">Testimonials</a>
               <a href="#book" onClick={closeMenu} className="bg-primary hover:bg-primary/90 text-white font-semibold py-2 px-6 mx-4 rounded-md transition-colors text-center">
